@@ -9,7 +9,7 @@ export const services = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>Tailwind</b> ,<b>React.js</b>  <b>Next Js </b> ",
   },
   {
     Icon: FaServer,
@@ -20,13 +20,13 @@ export const services = [
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+    about: "I can develop robust  REST API using   <b>Node API</b> ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
   },
   {
     Icon: AiOutlineAntDesign,
@@ -45,18 +45,8 @@ export const services = [
 export const languages = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Java Script",
+    name: "JavaScript",
     level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
   },
   {
     Icon: BsCircleFill,
@@ -65,13 +55,23 @@ export const languages = [
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Redux ",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "Next Js",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Python",
+    level: "20",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Tailwind",
+    level: "75",
   },
 ];
 
@@ -101,110 +101,85 @@ export const tools = [
 export const projects = [
   {
     id: 1,
-    name: "COVID Tracker",
+    name: "Borkha Shop",
     description:
-      "This app shows a statistical view about corona virus over the world",
+      "A full-stack single-page eCommerce web app where user can buy the product",
     image_path: "/images/project.png",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
-  },
-  {
-    id: 2,
-    name: "Algorithm Visualizer",
-    image_path: "/images/project.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
-    description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
-  },
-
-  {
-    id: 3,
-    name: "Dev Talks",
-    image_path: "/images/project.png",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
-    description:
-      "Social Media app for developers who can share project,create posts,etc...",
+    deployed_url: "https://borkha-shop.web.app",
+    github_url: "https://github.com/abdul-dulal/borkah-shop",
+    category: ["mongo"],
     key_techs: [
       "React",
       "Redux",
+      "Tailwind",
+      "Express",
+      "Node",
+      "MongoDB",
+      "Stripe",
+      "JWT",
+    ],
+  },
+  {
+    id: 2,
+    name: "Tools Shop",
+    description:
+      "A full-stack single-page eCommerce web app where user can buy the product",
+    image_path: "/images/tools-shop.png",
+    deployed_url: "https://tools-shop-theta.vercel.app/",
+    github_url: "https://github.com/abdul-dulal/tools-shop",
+    category: ["mongo"],
+    key_techs: [
+      "React",
+      "Tailwind",
       "Node",
       "Express",
       "Mongo",
-      "REST API",
-      "Bootstrap",
+      "Role based authentication",
     ],
+  },
+  {
+    id: 3,
+    name: "Reprizo",
+    image_path: "/images/rep.png",
+    deployed_url: "https://edu-world-1200d.web.app/",
+    github_url: "https://github.com/abdul-dulal/eduworld",
+    category: ["mongo"],
+    description:
+      "A full-stack single-page Inventory management system web app where user Update quantity and add new quantity",
+
+    key_techs: ["React", "firebase", "Node", "Express", "Mongo"],
   },
 
   {
     id: 4,
-    name: "Realtime Chat App",
-    image_path: "/images/project.png",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  },
-
-  {
-    id: 8,
-    name: "Tweeter Clone",
-    image_path: "/images/project.png",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
+    name: "h2g",
+    image_path: "/images/h2g.png",
+    deployed_url: "https://h2g-startup.netlify.app/",
+    github_url: "https://github.com/abdul-dulal/h2g",
+    category: ["react"],
+    description: "Egency Portfolio single page web application",
+    key_techs: ["React", "Tailwind"],
   },
 
   {
     id: 5,
-    name: "Color Classification using tf.js",
-    image_path: "/images/project.png",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+    name: "Red-onion",
+    image_path: "/images/red.png",
+    deployed_url: "https://red-onion-a5d19.web.app/",
+    github_url: "https://github.com/abdul-dulal/red-onion",
+    category: ["node", "react"],
+    description: "Food Delivery application",
+    key_techs: ["React", "Node", "Express"],
   },
+
   {
     id: 6,
-    name: "YouTube using YouTube ",
-    image_path: "/images/project.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    id: 7,
-    name: "Football App",
-    image_path: "/images/project.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
-    category: ["react"],
-    description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    name: "Portfolio",
+    image_path: "/images/portfolio.png",
+    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
+    github_url: "https://github.com/Dey-Sumit/tweetme",
+    category: ["next"],
+    description: "My Portfolio",
+    key_techs: ["Next Js", "Tailwind"],
   },
 ];
-export const Category = "react" | "node" | "express" | "django" | "mongo";

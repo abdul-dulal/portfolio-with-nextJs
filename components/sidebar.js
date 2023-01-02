@@ -12,28 +12,29 @@ export default function Sidebar() {
     <div>
       <Image
         src={"/images/dulal.jpg"}
-        className=" mx-auto  rounded-full "
+        className=" mx-auto  rounded-full h-32  "
         height={0}
-        width={50}
+        width={135}
         alt=""
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
+      <h3 className="my-4 text-3xl font-medium tracking-wider  ">
         Abdul <span className="text-green ml-1"> Dulal</span>
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500 text-center">
+      <p className="px-2 py-2 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500 text-center">
         Front-End Developer
       </p>
       <a
-        href=""
-        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        download
+        href="/Abdul Dulal CV (1).pdf"
+        className="flex items-center justify-center px-2 py-2 my-4 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <BiDownload className="w-6 h-6" />
-        <span> Download Resume</span>
+        <span className="ml-3"> Download Resume</span>
       </a>
       {/* icon */}
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
+      <div className="flex justify-center gap-10 w-9/12 mx-auto my-5 text-green md:w-full ">
         <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>

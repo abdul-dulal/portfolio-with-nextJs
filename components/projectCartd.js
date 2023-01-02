@@ -54,12 +54,14 @@ const ProjectCard = ({
             >
               <a
                 href={github_url}
+                target="blank"
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
                 href={deployed_url}
+                target="blank"
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
                 <AiOutlineEye size={22} /> <span>Preview</span>

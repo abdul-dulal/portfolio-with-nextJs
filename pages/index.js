@@ -4,7 +4,7 @@ import { services } from "../info/data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimations, stagger } from "../components/animations";
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
       <Head>

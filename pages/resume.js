@@ -1,9 +1,9 @@
-import Bar from "../components/Bar";
 import { languages, tools } from "../info/data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimations } from "../components/animations";
 
 import Head from "next/head";
+import Bar from "../components/bar";
 const Resume = () => {
   return (
     <div>

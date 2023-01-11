@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-const Bar = ({ value: { Icon, level, name } }) => {
+export default function Bar({ value: { Icon, level, name } }) {
   const bar_width = `${level}%`;
 
   const variants = {
@@ -31,5 +31,4 @@ const Bar = ({ value: { Icon, level, name } }) => {
       </motion.div>
     </div>
   );
-};
-export default Bar;
+}

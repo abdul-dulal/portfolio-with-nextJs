@@ -25,7 +25,7 @@ export default function Sidebar() {
       </p>
       <a
         download
-        href="/Abdul Dulal CV (1).pdf"
+        href="/Abdul dulal- Resume .docx.pdf"
         className="flex items-center justify-center px-2 py-2 my-4 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <BiDownload className="w-6 h-6" />
@@ -35,14 +35,17 @@ export default function Sidebar() {
 
       {/* Socials */}
       <div className="flex justify-center gap-10 w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
+        <a target="_blank" href="https://github.com/abdul-dulal">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/abdul-dulal-islam/"
+        >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
-          <AiFillFacebook className="w-8 h-8 cursor-pointer" />{" "}
+        <a target="_blank" href="https://web.facebook.com/abduldulalislam">
+          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
 

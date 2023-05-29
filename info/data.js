@@ -65,8 +65,8 @@ export const languages = [
   },
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "20",
+    name: "Typescript",
+    level: "68",
   },
   {
     Icon: BsCircleFill,

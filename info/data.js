@@ -105,7 +105,7 @@ export const projects = [
     description:
       "A full-stack single-page eCommerce web app where user can buy the product",
     image_path: "/images/project.png",
-    deployed_url: "https://borkha-shop.web.app",
+    deployed_url: "https://borkha-shop-6ry3.onrender.com/",
     github_url: "https://github.com/abdul-dulal/borkah-shop",
     category: ["mongo"],
     key_techs: [
@@ -121,6 +121,18 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Ass-sunnah-foundation",
+    image_path: "/images/ass.png",
+    deployed_url: "https://asssunnah-foundation.vercel.app/",
+    github_url: "https://github.com/abdul-dulal/asssunnah-foundation-clone",
+    category: ["mongo"],
+    description:
+      "A full-stack single-page Inventory management system web app where user Update quantity and add new quantity",
+
+    key_techs: ["React", "firebase", "Node", "Express", "Mongo"],
+  },
+  {
+    id: 3,
     name: "Tools Shop",
     description:
       "A full-stack single-page eCommerce web app where user can buy the product",
@@ -136,18 +148,6 @@ export const projects = [
       "Mongo",
       "Role based authentication",
     ],
-  },
-  {
-    id: 3,
-    name: "Reprizo",
-    image_path: "/images/rep.png",
-    deployed_url: "https://edu-world-1200d.web.app/",
-    github_url: "https://github.com/abdul-dulal/eduworld",
-    category: ["mongo"],
-    description:
-      "A full-stack single-page Inventory management system web app where user Update quantity and add new quantity",
-
-    key_techs: ["React", "firebase", "Node", "Express", "Mongo"],
   },
 
   {

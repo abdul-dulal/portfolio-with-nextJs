@@ -58,12 +58,12 @@ export default function Sidebar() {
           <GoLocation className="mr-2" />{" "}
           <span className="">Rangpur,Bangladesh </span>
         </div>
-        <p className="my-2 text-center"> dulal.dpi.387364@gmail.com </p>
+        <p className="my-2 text-center"> infodulal202@gmail.com </p>
         <p className="my-2 text-center">01957804564 </p>
       </div>
 
       <button
-        onClick={() => window.open("mailto:dulal.dpi.387364@gmail.com")}
+        onClick={() => window.open("mailto:infodulal202@gmail.com")}
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
       >
         Email Me

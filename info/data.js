@@ -50,7 +50,7 @@ export const languages = [
   },
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "React js",
     level: "70",
   },
   {
@@ -66,7 +66,7 @@ export const languages = [
   {
     Icon: BsCircleFill,
     name: "Typescript",
-    level: "68",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
